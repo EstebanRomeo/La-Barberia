@@ -1,0 +1,35 @@
+.containerInfo {
+  position: relative;
+}
+
+.imgPrinc {
+  width: 100%;
+  position: relative; 
+}
+.imgPrinc img{
+  width: 100%;
+
+}
+
+.degradado {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(rgba(0, 0, 0, 1), transparent);
+}
+
+
+.texto-superpuesto {
+  position: absolute;
+  top: 43%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  color: rgb(240, 195, 72);
+  font-size: 18px;
+  font-weight: bold;
+  font-size: 15px;
+  width: 50%;
+  font-family: 'Rye', serif;
+}

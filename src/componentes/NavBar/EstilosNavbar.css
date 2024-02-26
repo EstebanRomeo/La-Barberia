@@ -1,0 +1,12 @@
+.Nav {
+    background-color: #202020; /* Cambia el color de fondo según tus necesidades */
+  }
+  
+  .pNav {
+    color: rgb(240, 195, 72) !important; /* Cambia el color del texto a blanco */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  .pNav h1{
+    font-family: 'Six Caps', sans-serif;
+    font-size: 80px;
+  }

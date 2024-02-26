@@ -1,0 +1,65 @@
+.titulo {
+    font-weight: bold;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: white;
+  }
+  .containerTur {
+      background-color: white;
+  }
+  header {
+    margin-top: 3rem;
+  }
+  header h1 {
+    color: white;
+  }
+  .list-group{
+    background-color: rgb(240, 195, 72);
+    border-bottom: 1px solid #a03232;
+    padding: 2rem;
+    padding-bottom: 3rem;
+    
+  }
+  .lista-citas .cita:last-of-type {
+    border-bottom: 0;
+  }
+  
+  .lista-citas .cita p {
+    margin:0;
+  }
+  .lista-citas .cita button {
+    margin-top: 1rem!important;
+  }
+  .lista-citas .cita span {
+    font-weight: bold;
+  }
+  textarea {
+      height: 200px!important;
+  }
+  
+  svg {
+    width: 21px;
+  }
+
+
+  .tituloCitas{
+    color: rgb(255, 255, 255);
+  }
+
+  .agregar-turno{
+    padding: 100px;
+    border-radius: 16px;
+    background-color: rgb(240, 195, 72);
+  }
+
+  .btn{
+    margin-top: 60px;
+    background-color: black;
+  }
+
+  .titulo{
+    color: rgb(240, 195, 72);
+  }
+  .aviso{
+    color: rgb(240, 195, 72);
+  }
