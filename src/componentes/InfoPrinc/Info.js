@@ -10,8 +10,8 @@ const Info = () => {
         <img src={fondo4} alt='Descripción de la imagen' />
       </div>
       <div className='texto-superpuesto'>
-        <h1>PARA CABALLEROS DE TODAS LAS EDADES</h1>
-        <p>Descubre un espacio donde la tradición se encuentra con la vanguardia...</p>
+        <h1>UN SANTUARIO DE ESTILO CLÁSICO PARA EL HOMBRE <span className='moderno'>  MODERNO</span></h1>
+        <p>DESCUBRE UN ESPACIO DONDE LA TRADICIÓN SE ENCUENTRA CON LA VANGUARDIA...</p>
       </div>
     </div>
   );

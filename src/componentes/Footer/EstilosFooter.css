@@ -1,12 +1,26 @@
 .footerContainer{
-    background-color: #202020;
+    background-color: #000000;
     display: inline-block;
     width: 100%;
     color: rgb(240, 195, 72);
+    font-family: "Antonio", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 50px;
 }
 
-
-
+.logoFooter{
+  width: 400px;
+  margin-bottom: 50px;
+}
+.infoFooter{
+  display: flex;
+  justify-content: center;
+  color: rgb(240, 195, 72);
+  margin-top: 20px;
+  gap: 150px;
+}
 
 
 

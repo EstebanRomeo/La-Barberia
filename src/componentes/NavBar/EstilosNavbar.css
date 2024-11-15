@@ -1,5 +1,5 @@
 .Nav {
-    background-color: #202020; /* Cambia el color de fondo según tus necesidades */
+    background-color: #000000; /* Cambia el color de fondo según tus necesidades */
   }
   
   .pNav {
@@ -9,4 +9,5 @@
   .pNav h1{
     font-family: 'Six Caps', sans-serif;
     font-size: 80px;
+    margin-left: 550px;
   }

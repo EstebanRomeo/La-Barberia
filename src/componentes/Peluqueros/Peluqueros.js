@@ -12,6 +12,8 @@ import Peluquero1 from "../SecPeluqueros/Peluquero1"
 const Peluqueros = () => {
   return (
     <div className='containerPeluqueros'>
+        <h1>NUESTROS PELUQUEROS</h1>
+        <div className='containerPelos'>
         <div class="cardP">
         <img src={pel1} class="card__image" alt="pel1" />
         <div class="card__contentP">
@@ -64,6 +66,8 @@ const Peluqueros = () => {
             </Link>
         </div>
         </div>
+        </div>
+        
 
     </div>
   )

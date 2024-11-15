@@ -1,93 +1,44 @@
 import React from 'react';
 import EstilosPublicacion from "./EstilosPublicacion.css"
+import facu2 from "../FotosPrinc/img/facu2.jpg"
+
 
 const Publicacion = () => {
   return (
 <div className='publContainer'>
-  <div className="card">
-    <div className="container-image">
-      {/* Contenido del primer SVG reemplazado por una imagen */}
-      <img
-        className="image-circle"
-        src="https://i.pinimg.com/736x/96/49/87/964987896354604e9aa1b5a776ce685d.jpg"
-        alt="Hairstyle"
-      />
-    </div>
-    <div className="content">
-      <div className="detail">
-        <span>Corte</span>
-        <p>$4000</p>
-        <button>Info</button>
-      </div>
-      <div className="product-image">
-        <div className="box-image">
-          {/* Contenido del segundo SVG reemplazado por una imagen */}
-          <img
-            className="img-product"
-            src="https://img2.freepng.es/20190608/pas/kisspng-portable-network-graphics-clip-art-world-beard-and-beard-png-transparent-pictures-trzcacak-rs-5cfb8ea7deec53.7669889915599899279131.jpg"
-            alt="Hair Logo"
-          />
+<section className="services">
+      <h1>SERVICIOS</h1>
+      <div className="services-container">
+        <div className="service-card">
+          <div className="service-icon"><img src='https://vantaamerica.com/wp-content/uploads/2019/09/2.jpg'></img></div>
+          <h3>CORTE CLÁSICO</h3>
+          <h4>$8000</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor.</p>
+          <button class="comic-button">RESERVAR</button>
+        </div>
+        <div className="service-card">
+          <div className="service-icon"><img className='barba' src='https://png.pngtree.com/png-clipart/20230801/original/pngtree-illustration-of-barber-razor-isolated-on-white-background-picture-image_7731312.png'></img></div>
+          <h3>BARBA</h3>
+          <h4>$6000</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor.</p>
+          <button class="comic-button">RESERVAR</button>
+        </div>
+        <div className="service-card">
+          <div className="service-icon"><img className='tradicional' src='https://static.vecteezy.com/system/resources/thumbnails/026/493/371/small/shaving-brush-and-mug-ink-sketch-isolated-on-white-background-hand-drawn-illustration-vintage-style-stroke-drawing-vector.jpg'></img></div>
+          <h3>AFEITADO TRADICIONAL</h3>
+          <h4>$6500</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor.</p>
+          <button class="comic-button">RESERVAR</button>
+        </div>
+        <div className="service-card">
+          <div className="service-icon"><img className='afeitado' src='https://png.pngtree.com/png-vector/20240322/ourlarge/pngtree-master-barber-tshirt-design-png-image_12192058.png'></img></div>
+          <h3>CORTE + BARBA</h3>
+          <h4>$11000</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor.</p>
+          <button class="comic-button">RESERVAR</button>
         </div>
       </div>
-    </div>
-  </div>
- {/* Segundo item */}
-  <div className="card">
-    <div className="container-image">
-      {/* Contenido del primer SVG reemplazado por una imagen */}
-      <img
-        className="image-circle"
-        src="https://st5.depositphotos.com/51261150/64630/i/450/depositphotos_646304436-stock-photo-skull-horn-hipster-mustache-beard.jpg"
-      />
-    </div>
-    <div className="content">
-      <div className="detail">
-        <span>Barba</span>
-        <p>$2000</p>
-        <button>Info</button>
-      </div>
-      <div className="product-image">
-        <div className="box-image">
-          {/* Contenido del segundo SVG reemplazado por una imagen */}
-          <img
-            className="img-product"
-            src="https://pbs.twimg.com/profile_images/671359933447716864/2rvHM9hP_400x400.jpg"
-            alt="Hair Logo"
-          />
-        </div>
-      </div>
-    </div>
-  </div>
-
- {/* Tercer item */}
- <div className="card">
-    <div className="container-image">
-      {/* Contenido del primer SVG reemplazado por una imagen */}
-      <img
-        className="image-circle"
-        src="https://img.freepik.com/vector-premium/logotipo-barberia-craneo-peluquero-barbudo-vintage-peinado-elegante-ilustracion-vectorial_195742-1301.jpg"
-        alt="Hairstyle"
-      />
-    </div>
-    <div className="content">
-      <div className="detail">
-        <span>Corte + Barba</span>
-        <p>$6000</p>
-        <button>Info</button>
-      </div>
-      <div className="product-image">
-        <div className="box-image">
-          {/* Contenido del segundo SVG reemplazado por una imagen */}
-          <img
-            className="img-product"
-            src="https://img2.freepng.es/20180405/rse/kisspng-beard-oil-man-beard-and-moustache-5ac6a4dac714e5.4670498115229677708155.jpg"
-            alt="Hair Logo"
-          />
-        </div>
-      </div>
-    </div>
-  </div>
-      
+    </section>
     </div>
   );
 };

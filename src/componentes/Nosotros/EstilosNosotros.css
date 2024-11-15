@@ -1,40 +1,75 @@
-/* EstilosNosotros.css */
-
 .containerNosotros {
-  position: relative;
-  background-image: url('../FotosPrinc/img/todos.jpg');
-  background-size: contain;
-  background-position: center;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  height: 100vh;
+  justify-content: center;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgb(240, 195, 72), rgba(0, 0, 0, 0.8));
+  color: white;
+  padding: 40px;
+  font-family: "Antonio", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
-  
-  .containerTextoS {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    padding: 20px;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%);
-    border-radius: 10px;
-  }
-  
-  .text-princ,
-  .infoN {
-    color: rgb(240, 195, 72);
-    width: 1000px;
-    margin: auto;
-  }
-  .text-princ{
-    font-family: 'Six Caps', sans-serif;
-    font-size: 80px;
-  }
+.containerPelos{
+  display: flex;
+  gap: 50px;
+}
 
+.infoNosotros {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  max-width: 100%;
+}
 
-  
-  
+.containerInfo h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.containerInfo p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.highlight {
+  color: #ffcc00;
+  font-weight: bold;
+}
+
+.ctaButton {
+  background-color: #ffcc00;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ctaButton:hover {
+  background-color: #d4a900;
+}
+
+.imagenesSecundarias {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.imagenesSecundarias img,
+.containerTitles img {
+  width: 300px;
+  height: auto;
+  object-fit: cover;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.imagenHover:hover {
+  filter: grayscale(80%);
+  transform: scale(1.05);
+}

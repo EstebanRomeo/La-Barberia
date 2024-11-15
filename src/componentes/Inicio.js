@@ -7,6 +7,7 @@ import FotosInicio from './FotosPrinc/FotosInicio'
 import Banner from './Banner/Banner'
 import Contacto from './Contacto/Contacto'
 import Footer from './Footer/Footer'
+import Productos from "./Productos/Productos"
 
 
 
@@ -19,6 +20,7 @@ const Inicio = () => {
       <Peluqueros />
       <Publicacion />
       <FotosInicio />
+      <Productos/>
       <Banner />
       <Contacto />
     </div>

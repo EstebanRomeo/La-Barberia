@@ -1,45 +1,80 @@
-.containerOf{
-  background-color: rgb(0, 0, 0);
-  width: 100%;
-  height: 1000px;
+.containerOf {
   display: flex;
+  flex-direction: row;
   align-items: center;
-  justify-self: center;
-}
-.containerOf{
-  color: rgb(240, 195, 72);
-}
-.continerOf2{
-  width: 100%;
+  background-color: #121212; /* Fondo oscuro */
+  color: rgb(240, 195, 72); /* Texto en blanco */
+  padding: 40px;
+  text-align: left;
+  font-family: "Antonio", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
-.infoTable{
+
+.textContent {
+  flex: 1;
+  max-width: 50%;
+}
+
+.imageContainer {
+  flex: 1;
   display: flex;
-  flex-direction: column;
-  align-items: baseline;
-  margin-left: 200px;
-}
-.tituloTabla{
-  font-family: 'Six Caps', sans-serif;
-  font-size: 50px;
+  justify-content: center;
 }
 
-td {
-  position: relative;
+.carImage {
+  opacity: 0.8; /* Ajusta la opacidad si es necesario */
 }
-
-.imgOf1 {
-  width: 350px;
-  z-index: 1; /* Asegura que la primera imagen esté detrás de la segunda */
+.imageContainer img{
+  width: 600px;
+  border-radius: 16px;
   border-style: double;
 }
 
-.imgOf2 {
-  position: absolute;
-  width: 350px;
-  top: 85%;
-  left: 100%; /* Centra la imagen horizontalmente en relación con el contenedor padre */
-  transform: translate(-50%, -50%); /* Centra la imagen verticalmente en relación con el contenedor padre */
-  z-index: 2; /* Asegura que la segunda imagen esté encima de la primera */
-  border-style: double;
+.title {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.subtitle {
+  color: rgb(240, 195, 72); /* Gris claro */
+  margin: 10px 0;
+  font-size: 1em;
+}
+
+.serviceButton {
+  background-color: rgb(240, 195, 72); /* Naranja */
+  color: #000000;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.statsContainer {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background-color: #121212;
+  font-family: "Antonio", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.statItem {
+  text-align: center;
+}
+
+.statItem h3 {
+  font-size: 2em;
+  color: rgb(240, 195, 72); /* Naranja para los números */
+}
+
+.statItem p {
+  font-size: 0.9em;
+  color: #b0b0b0; /* Gris claro */
 }

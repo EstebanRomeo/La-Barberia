@@ -1,5 +1,7 @@
 .corte1, .corte3{
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .corte1 img{
  margin-left: 500px;
@@ -7,14 +9,19 @@
 .infoCorte1, .infoCorte3{
     color: rgb(240, 195, 72);
     width: 50%;
+    margin-left: 100px;
 }
 
 .corte2, .corte4{
     background-color: rgb(240, 195, 72);
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .infoCorte2{
     width: 50%;
+    margin-right: 200px;
+    margin-left: 250px;
 }
 .corte3 img{
     width: 500px;
